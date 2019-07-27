@@ -1,0 +1,55 @@
+drop database bookstore;
+create database bookstore;
+use bookstore;
+
+create table books;
+(id varchar(8),
+name varchar(24),
+title varchar(96),
+price float,onSale tinyint default 0,
+year int,
+description varchar(30),inventory int);
+
+INSERT INTO books VALUES('201','Kyle',
+'jsp网络技术',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('202','Kyle',
+'jsp网络技术',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('203','Kyle',
+'jsp网络应用',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('205','Kyle',
+'jsp网络',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('206','Kyle',
+'jsp应用',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('207','Kyle',
+'jsp网络技术',
+56.00,1,2008,'网络编程系列丛书.',20);
+
+INSERT INTO books VALUES('208','Kyle',
+'jsp网络技术',
+56.00,1,2008,'网络编程系列丛书.',20);
+USE bookstore
+SELECT * FROM books
+
+GRANT ALL PRIVILEGES ON *.* TO jsp@localhost IDENTIFIED BY 'pwd' WITH GRANT OPTION;
+
+create table `user` (
+	`name` char (90),
+	`password` int (11),
+	`gender` char (90),
+	`phone` int (11),
+	`address` varchar (600) 
+); 
+
+INSERT INTO `user` (`name`, `password`, `gender`,`phone`,`address`) VALUES('小张','111111','男','1112222','上海');
+INSERT INTO `user` (`name`, `password`, `phone`,`gender`, `address`) VALUES('小李','222222','男','1112222','广州');
+INSERT INTO `user` (`name`, `password`, `phone`, `gender`,`address`) VALUES('小王','333333','男','111222','北京');

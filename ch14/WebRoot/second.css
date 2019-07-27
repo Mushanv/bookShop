@@ -1,0 +1,233 @@
+.head {
+	width:1200px;
+	 margin:0 auto;
+	  }
+.book_banner {
+	width:1200px;
+	 margin:0 auto;
+	 left:400px;
+	 background-color:#FFFCCC;
+	  text-align:center;
+	 } 
+.book_wrap {
+	width:1200px;
+	 margin:15px auto 0 auto; 
+	 padding-bottom:18px;
+	 }  
+.book_sub {
+	float:left;
+	 width:180px; 
+	 }
+.book_main {
+	float:left; 
+	width:540px; 
+	padding-left:10px;
+	}
+	
+.book_third {
+	
+	}
+
+/*左栏框样式*/
+.sub_box {
+	width:178px; 
+	border:1px solid #C3C3C3; 
+	margin-bottom:12px; 
+	overflow:hidden;
+	}
+.sub_box h2 {
+	font-size:14px; 
+	color:#853200; 
+	padding-left:12px; 
+	height:27px; 
+	line-height:27px;
+	background-color:#FFF0D9; 
+	font-weight: bold;
+	}
+
+/*热门作者*/
+.sub_box h2.book_author {
+	display:block;
+	width:130px; 
+	height:24px; 
+	margin:0 auto;
+	padding:5px 0 0 26px;
+	line-height:24px;
+	border-bottom:1px solid #A1A1A1;
+	background-color:#FFFFFF;
+	background-repeat: no-repeat; 
+	background-position: left 4px;
+}
+.sub_box .sub_box_author {
+	width:156px;
+    margin:5px auto;
+     }
+.sub_box .sub_box_author ul {
+	
+}
+.sub_box .sub_box_author li {
+	display:block;
+	height:25px; 
+	width:156px; 
+	line-height:25px; 
+	*height:21px; 
+	*line-height:21px; 
+	background-repeat:repeat-x; 
+	background-position:left bottom; 
+	margin:0; clear:both; 
+	}
+
+.sub_box .sub_box_author li a {
+	float:left; 
+	display:inline; 
+	width:60px; 
+	padding-left:10px; 
+	margin:0 4px; 
+	color:#666; 
+	background-repeat: no-repeat; 
+	background-position: left 9px; 
+	}
+.sub_box .sub_box_author li a:hover {
+	float:left; 
+	width:60px; 
+	padding-left:10px; 
+	margin:0 4px; 
+	color:#000;  
+	background-repeat: no-repeat; 
+	background-position: left 9px; 
+	}
+
+
+/*中栏框样式*/
+.main_focus { 
+	width:540px; 
+	margin:4px 0 12px 0;
+	}
+
+.main_box { 
+	width:538px; 
+	border:1px solid #A1A1A1; 
+	margin-bottom:12px; 
+	clear:both;
+	}
+.main_box h2 { 
+	float:left; 
+	padding:2px 0 0 10px; 
+	font-size:14px; 
+	font-weight:bold; 
+	color:#853200; 
+	line-height:22px; 
+	}
+.main_box .main_box_t { 
+	display:block; 
+	height:25px; 
+	width:536px; 
+	margin:0 1px; 
+	background-repeat: repeat-x; 
+	overflow:hidden; 
+	 }
+.main_box .main_box_c { 
+	width:538px; 
+	}
+.main_box .main_box_t ul { 
+	display:block; 
+	float:left; 
+	padding-top:2px; 
+	padding-left:30px; 
+	height:24px; 
+	overflow:hidden;  
+	}
+.main_box .main_box_t ul li {
+	float:left; 
+	height:23px; 
+	line-height:23px; 
+	padding-right:2px; 
+	display: block; 
+	}
+.main_box .main_box_t ul li a {
+	height:23px; 
+	padding-right: 8px; 
+	background-repeat: no-repeat; 
+	background-position: right -23px; 
+	color: #404040; 
+	text-decoration: none; 
+	float: left;
+	}
+.main_box .main_box_t ul li a:hover,.main_box .main_box_t ul li a.now { 
+	background-position: right 0px; 
+	font-weight: bold; 
+	color: #CC3300; 
+	}
+.main_box .main_box_t ul li a .main_tag_l { 
+	float:left; 
+	height:23px; 
+	width:8px;  
+	background-repeat: no-repeat; 
+	background-position: 0px -23px; 
+	}
+
+
+/*特价书*/
+.book_special { 
+	display:block; 
+	width:518px; 
+	padding:0 10px; 
+	margin:5px 0; 
+	overflow:hidden;
+	}
+.book_special li { 
+	display:block; 
+	height:27px; 
+	padding:0 10px; 
+	margin-top:-1px; 
+	line-height:27px; 
+    background-repeat: repeat-x; 
+    background-position: left top; 
+    }
+.book_special li .book_special_t { 
+	float:left; 
+	width:200px;
+	}
+.book_special li .book_special_price { 
+	width:150px; 
+	color:#CC3300;
+	}
+.book_special .del { 
+	color:#878787; 
+	padding-right:5px;
+	}
+
+
+/*登录我们*/
+.book_login { 
+	margin-bottom:12px;
+	height:300px;
+	padding-left:20px;
+	
+}
+.book_login h2 { 
+	padding-left:20px;
+	height:27px; 
+	padding-left:33px; 
+	border:2px solid #FFF; 
+	background-color:#FFF0D9; 
+	line-height:27px; 
+	font-size:14px; 
+	font-weight:bold; 
+	color:#853200; 
+    background-repeat: no-repeat; 
+    background-position: 8px 3px; 
+    }
+.book_login_c{
+	font-size:16px;
+}
+
+.foot { 
+	width:1200px;
+	height:60px;
+	background-color:#FFF0D9;
+	margin-top:380px;
+	padding-top:10px;
+	}
+
+
